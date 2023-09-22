@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width;">
+        <title>Practie Media Queries</title>
+        <style>
+            * {
+                font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+            }
+
+            h1 {
+                font-size:2rem;
+            }
+
+            h3 {
+                font-size:10vw;
+            }
+
+            section {
+                border:1px #aaa solid;
+                border-radius:2vh;
+                padding:1vh;
+                width:40vw;
+                display:flex;
+                gap:1vh;
+                flex-wrap:wrap;
+            }
+
+            p {
+                flex:1;
+                border:#aaa 1px solid;
+                padding:1vh;
+            }
+
+            @media only screen and (max-width:10px) {
+                body {
+                    background-color:yellow;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Responsive Web Design</h1>
+        <hr>
+        <section>
+            <p>I am a paragraph.</p>
+            <p>I am a paragraph.</p>
+            <p>I am a paragraph.</p>
+        </section>
+    </body>
+</html>
